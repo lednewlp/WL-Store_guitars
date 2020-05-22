@@ -9,7 +9,7 @@
     = csp_meta_tag
 
     %meta{:name => 'viewport', :content => 'width=device-width, initial-scale=1'}
-  %body
+  %body{:yield => 'body_class'}
     -if flash[:notice]
       .notification.is-success.global-notification
         %p.notice= notice
@@ -36,7 +36,7 @@
                 = cart_count_over_one
 
             -if user_signed_in?
-              = link_to 'Sell','#', class:'navbar-item button is-dark'
+              = link_to 'Sell', new_instrument_path, class:'navbar-item button is-dark'
 
               .navbar-item.has-dropdown.is-hoverable
                 = link_to 'Account', edit_user_registration_path, class:'navbar-item'
@@ -46,5 +46,6 @@
             - else
               = link_to 'Sign In', new_user_session_path, class:'navbar-item button is-warning'
               = link_to 'Sign Up', new_user_registration_path, class:'navbar-item button is-warning'
+  = yield(:header)
   .container
     = yield
