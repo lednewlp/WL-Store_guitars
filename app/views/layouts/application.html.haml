@@ -28,24 +28,25 @@
         .navbar-end
           .navbar-item
             .field.is-grouped
-            -# -if total_cart_item
-              = link_to cart_path(@cart), class:'navbar-item button is-warning'
-              %span.icon.is-small
-                %i.fa.fa-shopping-cart
-              %span Cart
-                = cart_count_over_one
+              -if total_cart_item
+                = link_to cart_path(@cart), class:'navbar-item button is-warning' do
+                  %span.icon.is-small
+                    %i.fa.fa-shopping-cart
+                  %span
+                    Cart
+                    = cart_count_over_one
 
-            -if user_signed_in?
-              = link_to 'Sell', new_instrument_path, class:'navbar-item button is-dark'
+              -if user_signed_in?
+                = link_to 'Sell', new_instrument_path, class:'navbar-item button is-dark'
 
-              .navbar-item.has-dropdown.is-hoverable
-                = link_to 'Account', edit_user_registration_path, class:'navbar-item'
-                .navbar-dropdown.is-right
-                  = link_to current_user.name, edit_user_registration_path, class:'navbar-item'
-                  = link_to 'Log Out', destroy_user_session_path, method: :delete, class:'navbar-item'
-            - else
-              = link_to 'Sign In', new_user_session_path, class:'navbar-item button is-warning'
-              = link_to 'Sign Up', new_user_registration_path, class:'navbar-item button is-warning'
+                .navbar-item.has-dropdown.is-hoverable
+                  = link_to 'Account', '#', class:'navbar-item'
+                  .navbar-dropdown.is-right
+                    = link_to current_user.name, edit_user_registration_path, class:'navbar-item'
+                    = link_to 'Log Out', destroy_user_session_path, method: :delete, class:'navbar-item'
+              - else
+                = link_to 'Sign In', new_user_session_path, class:'navbar-item button is-warning'
+                = link_to 'Sign Up', new_user_registration_path, class:'navbar-item button is-warning'
   = yield(:header)
   .container
     = yield
