@@ -33,32 +33,32 @@ Home:
 
 
 
-![imagem](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-52-20.png)
+![imagem](imgs%20para%20readme/Captura%20de%20tela%20de%202020-06-02%2012-52-20.png)
 
 
 
 Login:
 
-![imagem](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-52-28.png)
+![imagem](imgs%20para%20readme/Captura%20de%20tela%20de%202020-06-02%2012-52-28.png)
 
 Home Logado
 
-![imagem](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-52-36.png)
+![imagem](imgs%20para%20readme/Captura%20de%20tela%20de%202020-06-02%2012-52-36.png)
 
 Cadastro de Instrumento Para Venda:
 
-![imagem](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-52-48.png)
+![imagem](imgs%20para%20readme/Captura%20de%20tela%20de%202020-06-02%2012-52-48.png)
 
-![imagem](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-52-49.png)
+![imagem](imgs%20para%20readme/Captura%20de%20tela%20de%202020-06-02%2012-52-49.png)
 
 Compra de Instrumento:
 
-![imagem](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-53-03.png)
+![imagem](imgs%20para%20readme/Captura%20de%20tela%20de%202020-06-02%2012-53-03.png)
 
-![imagem](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-53-05.png)
+![imagem](imgs%20para%20readme/Captura%20de%20tela%20de%202020-06-02%2012-53-05.png)
 
 Carrinho de compras
 
-![imagem](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-53-13.png)
+![imagem](imgs%20para%20readme/Captura%20de%20tela%20de%202020-06-02%2012-53-13.png)
 
-![imagem](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-53-28.png)
+![imagem](imgs%20para%20readme/Captura%20de%20tela%20de%202020-06-02%2012-53-28.png)
