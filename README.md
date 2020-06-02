@@ -30,32 +30,40 @@ Preview do Projeto
 
 Home:
 
-![](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-52-20.png)
+```html
+<p align="center">
+  <img src="/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-52-20.png" width="350" title="hover text"> 
+</p>
+```
+
+
+
+![alt](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-52-20.png)
 
 
 
 Login:
 
-![](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-52-28.png)
+![alt](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-52-28.png)
 
 Home Logado
 
-![](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-52-36.png)
+![alt](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-52-36.png)
 
 Cadastro de Instrumento Para Venda:
 
-![](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-52-48.png)
+![alt](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-52-48.png)
 
-![](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-52-49.png)
+![alt](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-52-49.png)
 
 Compra de Instrumento:
 
-![](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-53-03.png)
+![alt](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-53-03.png)
 
-![](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-53-05.png)
+![alt](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-53-05.png)
 
 Carrinho de compras
 
-![](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-53-13.png)
+![alt](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-53-13.png)
 
-![Captura de tela de 2020-06-02 12-53-28](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-53-28.png)
+![alt](/home/wendel/portifolio/Marktplace/imgs para readme/Captura de tela de 2020-06-02 12-53-28.png)
