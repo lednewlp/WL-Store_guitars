@@ -1,6 +1,14 @@
 !!!
 %html
   %head
+    / Google Tag Manager
+    :javascript
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-WHDHDT7');
+    / End Google Tag Manager
     %title Marktplace
     = stylesheet_link_tag 'application', :media => 'all'
     = stylesheet_link_tag 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'
@@ -10,6 +18,10 @@
 
     %meta{:name => 'viewport', :content => 'width=device-width, initial-scale=1'}
   %body{:yield => 'body_class'}
+    / Google Tag Manager (noscript)
+    %noscript
+      %iframe{:height => "0", :src => "https://www.googletagmanager.com/ns.html?id=GTM-WHDHDT7", :style => "display:none;visibility:hidden", :width => "0"}
+    / End Google Tag Manager (noscript)
     -if flash[:notice]
       .notification.is-success.global-notification
         %p.notice= notice
